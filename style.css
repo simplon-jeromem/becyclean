@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.head{
+  display :flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logo{
+  margin-left: 2vw;
+  width: 25vw;
+  height: 32vh;
+  background-image: url("logo_becyclean.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#log{
+  width: 15vw;
+  height: 30vh;
+}
+#log ul{
+  list-style: none;
+  margin-top: 10vh;
+}
+#log li{
+  margin-bottom: 4vh;
+  margin-right: 3vw;
+  border-radius: 6px;
+  background-color: #8acc84;
+  text-align: center;
+  box-shadow: gray 2px 2px 2px;
+
+}
+#titre{
+  text-align: center;
+  line-height: 20vh;
+  margin-top: 10vh;
+  width: 50vw;
+  height: 20vh;
+  color:#14291a;
+  font-family: Verdana;
+  text-shadow: gray 3px 3px 3px;
+}
+.centre{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  margin-top: 5vh;
+  display :flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#carte{
+  width: 40vw;
+  height: 70vh;
+  background-image: url("carte-lyon.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 1px black solid;
+  border-radius: 10px;
+  box-shadow:  gray 3px 3px 3px;
+}
+#etapes{
+display: flex;
+flex-direction: column;
+}
+#calendrier{
+  width: 450px;
+  height: 220px;
+}
+#moisAnnee{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+  align-items: center;
+}
+#moisAnnee img{
+  width: 40px;
+  height: 30px;
+}
+.cadre{
+  height: 30px;
+  width: 45px;
+  line-height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  width: 30vw;
+}
+#form input{
+  margin-bottom: 1vh;
+  border-radius: 3px;
+  border: solid black 1px;
+}
+#form button{
+  width: 20%;
+}
+#ok{
+width: 30vw;
+height: 70vh;
+border: solid black 1px;
+border-radius: 8px;
+background-image: url("1024px-Olive_green_check.svg.png");
+background-size: 100%;
+box-shadow: gray 3px 3px 3px;
+background-repeat: no-repeat;
+display: none;
+}
+#ok h4{
+  position:absolute;
+  bottom: 0;
+  margin-left: 2%;
+  color: #14291a;
+  text-shadow:  gray 3px 3px 3px;
+}
+#info{
+  padding: 6px 6px 6px 6px;
+  text-align: center;
+  margin-top: 10vh;
+  border-radius: 8px;
+  width: 70vw;
+  height: 15vh;
+  background-color: #8acc84;
+  margin-bottom: 5vh;
+  box-shadow: gray 3px 3px 3px;
+}

@@ -1,0 +1,28 @@
+body{
+  font-family: sans-serif;
+}
+#liste{
+  list-style: none;
+  width: 35vw;
+}
+#liste button{
+  margin-left: 10px;
+  background-color: #4cb122;
+  border: solid black 1px;
+  height:30px;
+  border-radius: 5px;
+  box-shadow:  gray 3px 3px 3px;
+}
+#liste li{
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #09465b;
+  color: white;
+}
+#liste ul{
+  list-style: none;
+}
+#liste ul li{
+  background-color: white;
+  color:gray;
+}
